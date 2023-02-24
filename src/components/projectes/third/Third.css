@@ -1,0 +1,22 @@
+.third_bg{
+    height: 80vh;
+    width: 100%;
+    
+}
+.third_para{
+    text-align: center;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 80%;
+    margin:23em 0 0 10% ;
+    font-size: 100%;
+    position: absolute;
+}
+@media screen  and (max-width:400px) and (min-width:0){
+    .third_para {
+        font-size: 70%;
+        margin-top: 25em;
+    }
+    
+}

@@ -12,14 +12,18 @@ export default function Footer() {
    function phone() {
      window.open(`https://wa.me/${phonenumber}`, "_blank");
    }
+   const submitClick=()=>{
+      const submit=document.getElementById('inputEmail')
+      submit.value=''
+   }
   return (
     <div className="footer_bg">
       <div class="input_container">
         <div className="input_h2">
           <h2>See My Projects At Once & Leave Here Your Email Address</h2>
         </div>
-        <input type="text" class="input_field" placeholder="Email Address" />
-        <button class="input_button">Submit</button>
+        <input type="text" class="input_field" placeholder="Email Address" id="inputEmail" />
+        <button class="input_button" onClick={submitClick}>Submit</button>
       </div>
       <div className="footer_signs">
         <div className="logo2">LOGO</div>

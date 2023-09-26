@@ -8,8 +8,8 @@ import "./Home.css";
 export default function Home() {
   let phrases = [
     "Front-End Web Developer",
-    "Front-End Web Designer",
-    "Front-End Web Engineer",
+    "Back-End Web Developer",
+    "Full-Stack Web Developer",
   ];
   ////////////////////////////////////////////////
   const [text, setText] = useState("");
@@ -39,21 +39,7 @@ export default function Home() {
 
     return () => clearTimeout(timeoutId);
   }, [text, currentIndex, reverse]);
-  // const [text, settext] = useState(phrases[0]);
-  // useEffect(() => {
-  //   const interval=setInterval(() => {
-  //     if(text.length===0){
-  //      const newPhrase = phrases[Math.floor(Math.random() * phrases.length)];
-  //       settext(text.substring(0, text.length + 1));
-  //     }else {
-  //       settext(text.substring(0, text.length - 1));
-  //     }
-  //   }, 200);
 
-  // return()=>clearInterval(interval);
-  // },[text]);
-
- 
   return (
     <div className="home_page">
       <img src={astro} className="svg_img" />
@@ -63,7 +49,7 @@ export default function Home() {
         </a>
         <h2 className="intro">Hi! I'm Mohamed Tarek , {text}|</h2>
         <p className="home_para">
-          Hello Everyone , I have 6 Months of Experience in Web Development
+          Hello Everyone , I have 1 year of Experience in Web Development
         </p>
         <a href="#contact" style={{ textDecoration: "none" }}>
           <div className="home_connect">

@@ -43,7 +43,7 @@ export default function Skills() {
         >
           <SwiperSlide className="item1">
             {/* <button className='item_btn'>95%</button> */}
-            <img src={precent1} alt="precent" className="it" />
+            <img src={precent3} alt="precent" className="it" />
             <p className="smp">Html,Css</p>
           </SwiperSlide>
           <SwiperSlide>
@@ -55,8 +55,20 @@ export default function Skills() {
             <p className="smp s3"> bootstrap</p>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={precent2} alt="precent" className="it" />
+          <img src={precent3} alt="precent" className="it" />
             <p className="smp s3">React Js</p>
+          </SwiperSlide>
+          <SwiperSlide>
+             <img src={precent3} alt="precent" className="it" />
+            <p className="smp s3">Node js</p>
+          </SwiperSlide>
+          <SwiperSlide>
+             <img src={precent3} alt="precent" className="it" />
+            <p className="smp s3">MongoDB</p>
+          </SwiperSlide>
+          <SwiperSlide>
+             <img src={precent3} alt="precent" className="it" />
+            <p className="smp s3">Express Js</p>
           </SwiperSlide>
         </Swiper>
       </div>

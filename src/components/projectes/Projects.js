@@ -12,13 +12,13 @@ export default function Projects() {
       <div className="p_con">
         <h2 className="project">My Projects</h2>
         <p className="p_para">
-          My name is mohamed , I live in monofia , this My Projects and Certificates
+          My name is mohamed , I live in monofia , this Some of My Small Projects and Certificates
         </p>
       </div>
       <div className="buttons_nav">
         <Link to="">
           <button className="p_n1 pb_nav1 p_n11" id="p_n1">
-            Projects
+            Small-Projects
           </button>
         </Link>
         <Link to="second">

@@ -9,6 +9,9 @@ export default function Contact() {
  const [buttonText, setButtonText] = useState("Send");
  function handleClick() {
    setButtonText("Sending...");
+   setTimeout(() => {
+    setButtonText("Successfully Sent!");
+   }, 1000);
  }
        const form = useRef();
 
@@ -92,6 +95,7 @@ export default function Contact() {
             />
           </div>
           <button
+            style={{cursor: 'pointer'}}
             className="contact_submit"
             type="submit"
             onClick={handleClick}

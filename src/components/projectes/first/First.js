@@ -7,7 +7,7 @@ import "bootstrap"
 import project_1 from "../../../images/bootstrap.jpg"
 import project_2 from "../../../images/store.jpg";
 import project_3 from "../../../images/coffee.jpg";
-import project_4 from "../../../images/phne_store.jpg";
+import project_4 from "../../../images/Capture.PNG";
 import project_5 from "../../../images/second.jpg";
 import project_6 from "../../../images/first.jpg";
 import { Link } from 'react-router-dom';
@@ -38,7 +38,7 @@ export default function First() {
       </div>
       <div className="row2">
         <Link
-          to={"https://mohamedtarekosman.github.io/Phone_Store/third_site.html"}
+          to={"https://mohamedtarekosman.github.io/weather_app/"}
           target={"_blank"}
         >
           <img src={project_4} className="project_img"></img>

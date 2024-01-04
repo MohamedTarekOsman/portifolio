@@ -4,8 +4,10 @@ export default function Third() {
   return (
     <div className="third_bg">
       <p className='third_para'>
-        My Name Is Mohamed Tarek Osman, i live im monofia ,
-        I'm in the Last Year of Studying Computer Science Monofia University in Egypt
+      I am a Full-Stack developer with more than 1 years of experience in software development, adept at
+      contributing to software solutions, worked on several projects. Designed and developed web applications.
+      across multiple APIs, and databases. Passionate about learning
+      new technologies and solutions and facing new problems.
       </p>
     </div>
   );

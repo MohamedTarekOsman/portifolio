@@ -20,10 +20,8 @@ export default function Footer() {
     <div className="footer_bg">
       <div class="input_container">
         <div className="input_h2">
-          <h2>See My Projects At Once & Leave Here Your Email Address</h2>
+          <h2>Hope that liked you if Thanks For Visiting My Portfolio</h2>
         </div>
-        <input type="text" class="input_field" placeholder="Email Address" id="inputEmail" />
-        <button class="input_button" onClick={submitClick}>Submit</button>
       </div>
       <div className="footer_signs">
         <div className="logo2">LOGO</div>

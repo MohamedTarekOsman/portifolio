@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp,FaGithub } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
 import {BsList} from "react-icons/bs"
 import "./Header.css";
@@ -93,7 +93,7 @@ export default function Header() {
 
         <li>
           <a
-            href="https://www.facebook.com/profile.php?id=100009963788295"
+            href="https://github.com/MohamedTarekOsman"
             target={"_blank"}
           >
             <button
@@ -105,7 +105,7 @@ export default function Header() {
                 }
               }}
             >
-              <FaFacebookF className="ic" />
+              <FaGithub className="ic" />
             </button>
           </a>
         </li>

@@ -13,17 +13,12 @@ export default function Second() {
     <div className="first_bg">
       <div className="row3">
           <img src={project_2} className="project_img1"></img>
-
           <img src={project_3} className="project_img1"></img>
-
           <img src={project_1} className="project_img1"></img>
       </div>
       <div className="row4">
-
           <img src={project_4} className="project_img1"></img>
-
           <img src={project_6} className="project_img1"></img>
-
           <img src={project_5} className="project_img1"></img>
       </div>
     </div>

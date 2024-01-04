@@ -29,26 +29,6 @@ export default function App() {
       <Contact />
       <Footer /> 
     </BrowserRouter>
-
-    // <BrowserRouter>
-    //   <Header />
-    //   <Home />
-    //   <Skills />
-    //   <Projects />
-    //   <Contact />
-    //   <Footer />
-    //   <Routes>
-    //     <Route path="/home" element={<Home />} />
-    //     <Route path="/skills" element={<Skills />} />
-    //     <Route path="/projects" element={<Projects />} />
-    //     <Route path="/contact" element={<Contact />} />
-    //     <Route path="/footer" element={<Footer />} />
-    //     <Route path="header" element={<Header />} />
-    //   </Routes>
-
-    //   {/* <div className="div1">your date of birth :</div>
-    //   <Trying></Trying> */}
-    // </BrowserRouter>
   );
     
     

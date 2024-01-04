@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from "react";
 import { BsArrowRightCircle } from "react-icons/bs";
@@ -49,7 +50,7 @@ export default function Home() {
         </a>
         <h2 className="intro">Hi! I'm Mohamed Tarek , {text}|</h2>
         <p className="home_para">
-          Hello Everyone , I have 1 year of Experience in Web Development
+          Hello Everyone , I have 2 year of Experience in Web Development
         </p>
         <a href="#contact" style={{ textDecoration: "none" }}>
           <div className="home_connect">

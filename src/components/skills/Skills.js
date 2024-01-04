@@ -22,7 +22,7 @@ export default function Skills() {
     <div className="bg">
       <div className="continer">
         <h2 className="skill">Skills</h2>
-        <p className="para">You Can See My Skills Here</p>
+        <p className="para"></p>
         <Swiper
           navigation={true}
           className="general_swipe"

@@ -20,7 +20,7 @@ export default function Footer() {
     <div className="footer_bg">
       <div class="input_container">
         <div className="input_h2">
-          <h2>Hope that liked you if Thanks For Visiting My Portfolio</h2>
+          <h2>Hope that liked you Thanks For Visiting My Portfolio</h2>
         </div>
       </div>
       <div className="footer_signs">

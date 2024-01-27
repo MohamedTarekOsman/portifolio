@@ -54,7 +54,7 @@ export default function Home() {
         </p>
         <a href="#contact" style={{ textDecoration: "none" }}>
           <div className="home_connect">
-            <p className="homecon_para">Let's Connect</p>
+            <p className="homecon_para">Let's Connect </p>
             <BsArrowRightCircle className="ic2" />
           </div>
         </a>

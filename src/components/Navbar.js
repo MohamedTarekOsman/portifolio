@@ -6,9 +6,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
@@ -96,16 +94,19 @@ function NavBar() {
 
 
 
-            <Nav.Item className="fork-btn">
+            <div className="fork-btn mx-2">
+            <Link to={'/contact'} style={{textDecoration:"none",color:"white"}}>
               <Button
-                href="/contact"
-                target="_blank"
                 className="fork-btn-inner py-2"
               >
+                
                 <CgGitFork style={{ fontSize: "1.2em" }} />
                 Contact
+                
               </Button>
-            </Nav.Item>
+              </Link>
+            </div>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

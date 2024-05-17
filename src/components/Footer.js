@@ -2,10 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,FaTelegramPlane,FaWhatsapp   } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -23,7 +21,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/MohamedTarekOsman"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,17 +31,17 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://t.me/Mohamed_Tarek_Osman"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <FaTelegramPlane />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/mohamed-tarek-906432204"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -52,13 +50,13 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
+            <a
+                href="https://wa.me/+201148988342"
+                target="_blank"
                 rel="noopener noreferrer"
+                style={{ color: "white" }}
               >
-                <AiFillInstagram />
+                <FaWhatsapp />
               </a>
             </li>
           </ul>

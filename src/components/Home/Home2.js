@@ -4,10 +4,8 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,FaTelegramPlane,FaWhatsapp   } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -73,17 +71,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://t.me/Mohamed_Tarek_Osman"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaTelegramPlane />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/mohamed-tarek-906432204"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -92,13 +90,13 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
+              <a
+                href="https://wa.me/+201148988342"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                  <FaWhatsapp />
                 </a>
               </li>
             </ul>

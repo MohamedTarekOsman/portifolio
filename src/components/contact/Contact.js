@@ -41,8 +41,8 @@ export default function Contact() {
       );
   };
   return (
-    <div className="con_bg" id="contact">
-      <div className="svg_image">
+    <div className="con_bg "  id="contact">
+      <div className="svg_image mt-5">
         <img src={co} alt="Contact Image" className="contact_image" />
       </div>
       <div className="Content">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Mohamed_Tarek-Front.pdf";
+import pdf from "../../Assets/../Assets/Mohamed-Tarek-Osman-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -38,14 +38,14 @@ function ResumeNew() {
             <Page
               pageNumber={1}
               scale={width > 786 ? 1.7 : 0.6}
-              renderMode="svg"
+             
               
             />
             <br />
             <Page
               pageNumber={2}
               scale={width > 786 ? 1.7 : 0.6}
-              renderMode="svg"
+             
               
             />
           </Document>
